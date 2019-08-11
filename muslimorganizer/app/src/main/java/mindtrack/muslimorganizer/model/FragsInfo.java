@@ -1,9 +1,7 @@
 package mindtrack.muslimorganizer.model;
 
 
-import android.support.v4.app.Fragment;
-
-import mindtrack.muslimorganizer.service.DetectLocationListener;
+import androidx.fragment.app.Fragment;
 
 /**
  * Created by TuiyTuy on 12/14/2016.

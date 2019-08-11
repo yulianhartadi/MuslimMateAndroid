@@ -1,30 +1,20 @@
 package mindtrack.muslimorganizer.ui.fragments;
 
 import android.Manifest;
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.location.Address;
-import android.location.Geocoder;
 import android.location.Location;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AlertDialog;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AlertDialog;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
@@ -38,16 +28,10 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import java.util.List;
-import java.util.Locale;
-
 import mindtrack.muslimorganizer.R;
-import mindtrack.muslimorganizer.calculator.calendar.HGDate;
 import mindtrack.muslimorganizer.calculator.location.LocationTracker;
 import mindtrack.muslimorganizer.database.ConfigPreferences;
-import mindtrack.muslimorganizer.database.Database;
 import mindtrack.muslimorganizer.service.DetectLocationListener;
-import mindtrack.muslimorganizer.ui.activity.PrayShowActivity;
 
 /**
  * Created by TuiyTuy on 12/13/2016.

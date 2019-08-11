@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.CountDownTimer;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,12 +29,9 @@ import java.util.TimerTask;
 import mindtrack.muslimorganizer.R;
 import mindtrack.muslimorganizer.calculator.calendar.HGDate;
 import mindtrack.muslimorganizer.calculator.location.LocationReader;
-import mindtrack.muslimorganizer.calculator.location.Utility;
-import mindtrack.muslimorganizer.calculator.prayer.PrayerTimeCalculator;
 import mindtrack.muslimorganizer.calculator.prayer.PrayerTimes;
 import mindtrack.muslimorganizer.database.ConfigPreferences;
 import mindtrack.muslimorganizer.model.LocationInfo;
-import mindtrack.muslimorganizer.utility.Calculators;
 import mindtrack.muslimorganizer.utility.Dates;
 import mindtrack.muslimorganizer.utility.NumbersLocal;
 

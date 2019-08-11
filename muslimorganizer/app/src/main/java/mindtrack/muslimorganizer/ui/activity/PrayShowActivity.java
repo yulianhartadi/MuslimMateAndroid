@@ -1,11 +1,10 @@
 package mindtrack.muslimorganizer.ui.activity;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
@@ -20,13 +19,11 @@ import java.util.Locale;
 import mindtrack.muslimorganizer.R;
 import mindtrack.muslimorganizer.calculator.calendar.HGDate;
 import mindtrack.muslimorganizer.calculator.location.LocationReader;
-import mindtrack.muslimorganizer.calculator.prayer.PrayerTimeCalculator;
 import mindtrack.muslimorganizer.calculator.prayer.PrayerTimes;
 import mindtrack.muslimorganizer.database.ConfigPreferences;
 import mindtrack.muslimorganizer.model.Event;
 import mindtrack.muslimorganizer.model.LocationInfo;
 import mindtrack.muslimorganizer.ui.popup.CountryPrayerPopup;
-import mindtrack.muslimorganizer.utility.Calculators;
 import mindtrack.muslimorganizer.utility.Dates;
 import mindtrack.muslimorganizer.utility.NumbersLocal;
 

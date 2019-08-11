@@ -3,7 +3,7 @@ package mindtrack.muslimorganizer.service;
 import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
-import android.support.v4.content.WakefulBroadcastReceiver;
+import androidx.legacy.content.WakefulBroadcastReceiver;
 
 import mindtrack.muslimorganizer.database.ConfigPreferences;
 import mindtrack.muslimorganizer.utility.Alarms;

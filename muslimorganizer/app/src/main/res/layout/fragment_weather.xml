@@ -118,13 +118,13 @@
 
        </LinearLayout>
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/weather_day"
             android:layout_alignParentBottom="true"
             android:background="#BF2a5f54"
             android:id="@+id/weather"
-            ></android.support.v7.widget.RecyclerView>
+            ></androidx.recyclerview.widget.RecyclerView>
 
         <ImageView
             android:layout_width="16dp"
@@ -158,7 +158,7 @@
         android:background="@drawable/background_port"
        >
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/prayer_split_v"
@@ -207,9 +207,9 @@
 
             </LinearLayout>
         </RelativeLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/prayer_split_v"
@@ -258,10 +258,10 @@
 
             </LinearLayout>
         </RelativeLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/prayer_split_v"
@@ -311,9 +311,9 @@
 
             </LinearLayout>
         </RelativeLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/prayer_split_v"
@@ -365,7 +365,7 @@
 
             </LinearLayout>
         </RelativeLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>

@@ -5,15 +5,14 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.google.android.gms.maps.model.LatLng;
 import com.toptoche.searchablespinnerlibrary.SearchableSpinner;
@@ -27,7 +26,6 @@ import mindtrack.muslimorganizer.database.ConfigPreferences;
 import mindtrack.muslimorganizer.database.Database;
 import mindtrack.muslimorganizer.model.City;
 import mindtrack.muslimorganizer.model.Country;
-import mindtrack.muslimorganizer.service.DetectLocationListener;
 import mindtrack.muslimorganizer.service.DetectLocationManualListener;
 import mindtrack.muslimorganizer.ui.activity.PrayShowActivity;
 

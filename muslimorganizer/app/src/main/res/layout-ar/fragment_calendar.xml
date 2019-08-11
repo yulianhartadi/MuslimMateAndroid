@@ -209,7 +209,7 @@
             android:background="@color/colorPrimary"
             android:weightSum="7" >
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -226,7 +226,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/white" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -243,7 +243,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/white" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -260,7 +260,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/white" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -277,7 +277,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/white" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -294,7 +294,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/white" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -311,7 +311,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/white" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

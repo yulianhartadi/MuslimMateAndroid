@@ -10,13 +10,12 @@ import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
@@ -33,8 +32,6 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.memetix.mst.language.Language;
-import com.memetix.mst.translate.Translate;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -49,7 +46,6 @@ import java.util.Locale;
 
 import mindtrack.muslimorganizer.R;
 import mindtrack.muslimorganizer.database.ConfigPreferences;
-import mindtrack.muslimorganizer.database.Database;
 import mindtrack.muslimorganizer.model.LocationInfo;
 import mindtrack.muslimorganizer.model.Place;
 import mindtrack.muslimorganizer.service.PlacesService;

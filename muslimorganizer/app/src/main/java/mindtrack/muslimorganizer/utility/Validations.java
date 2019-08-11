@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 
 import mindtrack.muslimorganizer.R;
 import mindtrack.muslimorganizer.ui.popup.CountryPrayerPopup;
